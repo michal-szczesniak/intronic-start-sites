@@ -1,0 +1,13 @@
+data/
+ref/
+results/
+logs/
+envs/
+*.tar.gz
+*.zip
+*.bam
+*.bai
+*.bw
+*.bigWig
+*.bedgraph
+__pycache__/

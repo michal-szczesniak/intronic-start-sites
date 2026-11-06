@@ -1,0 +1,24 @@
+name: homer
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - _openmp_mutex=4.5
+  - bzip2=1.0.8
+  - ca-certificates=2026.7.22
+  - homer=5.1
+  - libgcc=16.2.0
+  - libgcc-ng=16.2.0
+  - libgomp=16.2.0
+  - libidn2=2.3.8
+  - libstdcxx=16.2.0
+  - libunistring=0.9.10
+  - libxcrypt=4.4.38
+  - libzlib=1.3.2
+  - openssl=3.6.5
+  - pcre2=10.47
+  - perl=5.32.1
+  - unzip=6.0
+  - wget=1.25.0
+  - zlib=1.3.2
