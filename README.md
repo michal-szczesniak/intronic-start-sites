@@ -2,7 +2,7 @@
 
 Code for the analyses and figures of:
 
-> Szcześniak MW, Wanowska E. Transcription starting inside human introns is widespread but rarely produces stable RNA. Manuscript submitted for publication (2026).
+> Szcześniak MW, Wanowska E. Transcription starting inside human introns is widespread but mostly yields short-lived RNA. Manuscript submitted for publication (2026).
 
 The scripts map capped transcription start sites inside introns of human protein-coding genes from public PRO-cap data (K562 and HCT116 cells) and test whether these sites produce stable RNA (total RNA-seq), sustain transcription after DRB release (BruDRB-seq, DRB/TTchem-seq), give RNA that accumulates without the nuclear exosome (ENCODE knockouts), carry the splice-donor and polyadenylation-signal arrangement of promoters, and differ from start sites between genes.
 
