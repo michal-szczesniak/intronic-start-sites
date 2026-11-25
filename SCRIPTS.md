@@ -21,7 +21,7 @@ Scripts are numbered roughly in the order in which they were run. All paths are 
 | `scripts/28_repeats.py` | Transposable elements at start sites. |
 | `scripts/29_context.py` | Intronic start sites compared with start sites between genes; RNA per initiation event. |
 | `scripts/30_known_genes.py` | Validation: detection of the start sites of genes nested in introns. |
-| `scripts/31_final_tables.py` | Final per-site tables (Supplementary Table 1). |
+| `scripts/31_final_tables.py` | Final per-site tables (Supplementary Data 1). |
 | `scripts/32_loci.py` | Locus figures drawn with pyGenomeTracks. |
 | `scripts/33_hm13_ipa.py` | Intronic polyadenylation of HM13 in the intron that holds MCTS2. |
 | `scripts/34_supp_numbers.py` | Numbers for the supplementary figures, computed from the result tables. |
@@ -37,6 +37,7 @@ Scripts are numbered roughly in the order in which they were run. All paths are 
 | `scripts/44_or_ci.py` | Confidence intervals of the Mantel–Haenszel odds ratios for shared and cell-type-specific sites. |
 | `scripts/45_depth_matched_deficit.py` | Depth-matched deficit of the arm on the host's strand in divergent pairs, compared across definitions. |
 | `scripts/45b_depth_matched_nn.py` | Depth-matched deficit of the arm on the host's strand with nearest-neighbour matching, for active and silent genes. |
+| `scripts/46_strand_check.py` | Detection of the start sites of nested genes by strand, with four measures of expression and confidence intervals clustered by host gene (Supplementary Table 1). |
 | `scripts/50_figure_data.py` | Tables of the plotted values, one per figure panel, from the result tables. |
 | `scripts/51_figures.py` | Figures drawn with matplotlib from the tables of step 50. |
 
@@ -76,3 +77,4 @@ Scripts are numbered roughly in the order in which they were run. All paths are 
 | `jobs/robust.sh` | Earlier robustness run with a 500-nt distance rule (steps 10–12, 20, 21). |
 | `jobs/robust_v2.sh` | Robustness run of the main K562 analysis with a 500-nt distance rule. |
 | `jobs/supp_numbers.sh` | Numbers for the supplementary figures (step 34). |
+| `jobs/strand_check.sh` | Start sites of nested genes by strand with different measures of expression (step 46). |

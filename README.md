@@ -32,6 +32,10 @@ with Python 3 and pandas, numpy, scipy and matplotlib (for example the environme
 
 `--no-bigwig` takes the nascent RNA profiles from the tables of steps 20 and 24 instead of the signal files, and `--skip-gtf` leaves out the genome-wide breakdown of start sites, which needs the GENCODE annotation and the PRO-cap peak files.
 
+## Figure and table numbering
+
+The scripts of steps 01–45, 50 and 51 name the figures and tables as in the first preprint version of the article; step 46 and `SCRIPTS.md` follow the current version. In the current version, Figs. 1–5 and panels a and b of Fig. 6 keep their numbers, Fig. 6c is Fig. 7 and Fig. 7 is Fig. 8; Supp. Figs. S1–S6 are Supplementary Figs. 1–6, S7 is Supplementary Fig. 8, S8 is Supplementary Fig. 9, S9 is Supplementary Fig. 10 and S10 is Supplementary Fig. 7. Supplementary Table 1 of the scripts (all intronic start sites) is Supplementary Data 1 of the article, and Supplementary Table 1 of the article is the output of step 46.
+
 ## License
 
 Code: MIT License (see `LICENSE`). Data in the Zenodo archive: CC BY 4.0.
