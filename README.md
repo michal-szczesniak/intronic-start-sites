@@ -11,7 +11,7 @@ The scripts map capped transcription start sites inside introns of human protein
 - `scripts/`: all analysis and figure scripts, numbered roughly in the order in which they were run; `scripts/helpers/`: download and file helpers. `SCRIPTS.md` gives a one-line description of each.
 - `jobs/`: the SLURM batch jobs that ran the steps.
 - `env/`: conda environments, installed Python packages and Python versions.
-- Processed tables are archived in Zenodo ([10.5281/zenodo.23984488](https://doi.org/10.5281/zenodo.23984488)).
+- Processed tables are archived in Zenodo ([10.5281/zenodo.23984487](https://doi.org/10.5281/zenodo.23984487)).
 
 ## Data
 
@@ -42,4 +42,4 @@ Code: MIT License (see `LICENSE`). Data in the Zenodo archive: CC BY 4.0.
 
 ## Citation
 
-Please cite the article above and the Zenodo archive ([10.5281/zenodo.23984488](https://doi.org/10.5281/zenodo.23984488)).
+Please cite the article above and the Zenodo archive ([10.5281/zenodo.23984487](https://doi.org/10.5281/zenodo.23984487)).
